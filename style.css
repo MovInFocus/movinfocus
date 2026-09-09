@@ -273,6 +273,15 @@ h2 {
     font-weight: 800;
     text-decoration: none;
 }
+.instagram-link{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+.instagram-link img{
+    width:60px;
+    height:60px;
+}
 
 footer {
     display: flex;
