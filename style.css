@@ -73,9 +73,7 @@ a {
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    gap: 28px;
+    display:none;
 }
 
 nav a {
