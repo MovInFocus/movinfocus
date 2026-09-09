@@ -50,6 +50,10 @@ a {
     -webkit-backdrop-filter: blur(14px);
 }
 
+.contact-copy img{
+    width:36px;
+    height:36px;
+}
 .logo {
     color: var(--text);
     font-size: 1rem;
@@ -268,6 +272,10 @@ h2 {
 }
 
 .contact-copy a {
+    display:flex;
+    align-items:center;
+    gap:12px;
+
     color: var(--orange);
     font-size: clamp(1.8rem, 4vw, 3rem);
     font-weight: 800;
