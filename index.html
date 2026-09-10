@@ -7,6 +7,7 @@
     <title>MovIn Focus | Visual Storytelling</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
+    <script src="gallery.js" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -41,14 +42,15 @@
                 </div>
             </div>
 
-            <div class="gallery" aria-label="Photography placeholders">
-                <div class="placeholder"><span>Photo 01</span></div>
-                <div class="placeholder"><span>Photo 02</span></div>
-                <div class="placeholder"><span>Photo 03</span></div>
-                <div class="placeholder"><span>Photo 04</span></div>
-                <div class="placeholder"><span>Photo 05</span></div>
-                <div class="placeholder"><span>Photo 06</span></div>
-            </div>
+            <p class="gallery-status" id="gallery-status">
+    Loading photographs...
+</p>
+
+<div
+    class="gallery"
+    id="gallery"
+    aria-label="Photography portfolio">
+</div>
         </section>
 
         <section class="content-section alternate" id="film">
