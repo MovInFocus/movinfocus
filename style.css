@@ -204,6 +204,17 @@ h2 {
     width: 100%;
 }
 
+.video-container{
+    overflow:hidden;
+    border-radius:18px;
+    border:1px solid var(--border);
+}
+
+.video-container iframe{
+    width:100%;
+    height:700px;
+    border:none;
+}
 .video-placeholder {
     min-height: 520px;
     display: grid;
@@ -345,7 +356,10 @@ footer a {
     nav {
         display: none;
     }
-
+    
+    .video-container iframe{
+height:250px;
+}
     .split-section{
     grid-template-columns: 1fr;
     gap: 34px;
