@@ -302,6 +302,15 @@ footer a {
     nav {
         display: none;
     }
+    .large-copy{
+    max-width:100%;
+}
+    .contact-copy{
+    width:100%;
+}
+    .contact-copy a{
+    width:100%;
+}
 
 }
 
