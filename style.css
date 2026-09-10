@@ -302,6 +302,12 @@ footer a {
     nav {
         display: none;
     }
+
+    .split-section{
+    grid-template-columns: 1fr;
+    gap: 34px;
+}
+    
     .large-copy{
     max-width:100%;
 }
