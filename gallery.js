@@ -1,12 +1,5 @@
-/*
-  COMPLETEAZĂ DOAR PRIMELE 3 VALORI.
-  Exemplu:
-  const GITHUB_OWNER = "danielmirti";
-  const GITHUB_REPO = "movinfocus";
-  const GITHUB_BRANCH = "main";
-*/
-const GITHUB_OWNER = "YOUR_GITHUB_USERNAME";
-const GITHUB_REPO = "YOUR_REPOSITORY_NAME";
+const GITHUB_OWNER = "MovInFocus";
+const GITHUB_REPO = "movinfocus";
 const GITHUB_BRANCH = "main";
 const PHOTO_FOLDER = "photos";
 
