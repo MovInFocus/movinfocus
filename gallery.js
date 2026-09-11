@@ -9,7 +9,7 @@ const GITHUB_BRANCH = "main";
 
 /* These folder names must match GitHub exactly. */
 const CATEGORIES = [
-    { folder: "1. Portraits", title: "Portraits" },
+    { folder: "1. Portraits", title: "Portraits & Lifestyle" },
     { folder: "2. Action", title: "Action" },
     { folder: "3. Animals", title: "Animals" },
     { folder: "4. Landscapes", title: "Landscapes" },
